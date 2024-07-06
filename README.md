@@ -12,7 +12,8 @@ All the results of the models can be found in this file.
 -----------------
 ## Data Files 
 
-1. **TMDB_train.csv**
+**1. TMDB_train.csv**
+   
 This file contains the movie features and labels for training instances.
 Number of instances: 100,000
 Number of columns: 44
@@ -24,14 +25,18 @@ The columns title, overview, tagline and production_companies contain the raw te
 
 The class label is in the last two columns: rate_category and average_rate. rate_category has 6 possible levels: 0, 1, 2, 3, 4 or 5.
 
-2. **TMDB_eval.csv**
+
+**2. TMDB_eval.csv**
+   
 This file contains the movie features and labels for evaluation instances.
 Number of instances: 20,000
 Number of columns: 44
 
 The columns in this dataset are similar to the training instances. I am going to use these instances to check the performance of my models.
 
-3. **TMDB_test.csv**
+
+**3. TMDB_test.csv**
+   
 This file contains the movie features for test instances.
 Number of instances: 20,000
 Number of columns: 42
